@@ -109,6 +109,12 @@ Para configurar a integração:
 5.  **Verifique a integração:**
     Após reiniciar, o Claude Desktop deve detectar o servidor. Procure pelo ícone de ferramentas (geralmente um martelo) na interface do Claude. Ao clicar nele, você deverá ver as ferramentas `send_message` e `list_contacts` listadas como disponíveis.
 
+    Abaixo, exemplos de como a integração se parece no Claude Desktop e uma mensagem enviada através do bot:
+
+    ![Claude Desktop com MCP Tools](./screenshots/claude_mcp.png)
+
+    ![Exemplo de Mensagem Recebida via WhatsApp](./screenshots/whatsapp_msg_received.jpeg)
+
 Para mais detalhes sobre o desenvolvimento de servidores MCP e como o Claude Desktop os utiliza, consulte o guia oficial que você mencionou:
 [Model Context Protocol - Quickstart for Server Developers](https://modelcontextprotocol.io/quickstart/server)
 
